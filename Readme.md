@@ -17,11 +17,13 @@ After installing, you can use the `getCountryName` function in your project. Imp
 ### Example
 
 ```javascript
-const getCountryName = require('codetocountry');
+const { getCountryName, getCountryCode } = require('codetocountry');
 
 console.log(getCountryName("US")); // Output: "United States"
+console.log(getCountryCode("United States")); // Output: "US"
 console.log(getCountryName("FR")); // Output: "France"
 console.log(getCountryName("XX")); // Output: "Unknown country code"
+
 ```
 
 ## Function Reference
